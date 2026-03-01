@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Development Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+  <h1>Web Development Quiz</h1>
+   <hr>
+  <div id="question-container">
+    <p id="question"></p>
+    <div id="options"></div>
+  </div>
+
+  <div class="buttons">
+    <button id="prevBtn" onclick="prevQuestion()">Previous</button>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    <button id="submitBtn" onclick="submitQuiz()">Submit</button>
+  </div>
+
+  <div id="score-board" class="hidden">
+    <h2>Your Score</h2>
+    <p id="score"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
